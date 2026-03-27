@@ -1,7 +1,7 @@
 export const profile = {
   name: "Nicolas Pistillo",
   role: "Desarrollador Freelance",
-  photo: "https://via.placeholder.com/150",
+  photo: "https://media.licdn.com/dms/image/v2/C4D03AQFKnz_Iqv39Nw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1646103474343?e=1776297600&v=beta&t=c58B9IKo0zMGWVVyjwqXSzy03duLfnKU8CWYuY_TTgc",
   about: "Apasionado desarrollador con experiencia en la creación de aplicaciones web modernas y atractivas. Me especializo en el ecosistema de JavaScript, principalmente con React y Node.js. Como freelance, disfruto ayudando a mis clientes a dar vida a sus ideas con soluciones eficientes y escalables.",
   experience: [
     {
