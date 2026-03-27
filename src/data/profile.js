@@ -1,11 +1,11 @@
 export const profile = {
-  name: "Tu Nombre",
+  name: "Nicolas Pistillo",
   role: "Desarrollador Freelance",
   photo: "https://via.placeholder.com/150",
   about: "Apasionado desarrollador con experiencia en la creación de aplicaciones web modernas y atractivas. Me especializo en el ecosistema de JavaScript, principalmente con React y Node.js. Como freelance, disfruto ayudando a mis clientes a dar vida a sus ideas con soluciones eficientes y escalables.",
   experience: [
     {
-      company: "Empresa A",
+      company: "Welivery SAS",
       role: "Desarrollador Frontend",
       period: "2020 - Presente",
       description: "Desarrollo y mantenimiento de la interfaz de usuario para diversas aplicaciones web utilizando React, Redux y Tailwind CSS."
@@ -15,6 +15,18 @@ export const profile = {
       role: "Desarrollador Full-Stack Jr.",
       period: "2018 - 2020",
       description: "Participé en el ciclo completo de desarrollo de software, desde el backend con Node.js y Express hasta el frontend con Vue.js."
+    },
+    {
+      company: "SBI Technology SRL",
+      role: "Software Developer",
+      period: "2018 - 2020",
+      description: "Participé en el ciclo completo de desarrollo de software, desde el backend con Node.js y Express hasta el frontend con Vue.js. y un poco mas de texto solo para saber como se puede llegar a ver esto"
+    },
+    {
+      company: "SBI Technology SRL",
+      role: "Software Developer",
+      period: "2018 - 2020",
+      description: "Participé en el ciclo completo de desarrollo de software, desde el backend con Node.js y Express hasta el frontend con Vue.js. y un poco mas de texto solo para saber como se puede llegar a ver esto"
     }
   ],
   education: [
@@ -30,12 +42,12 @@ export const profile = {
     }
   ],
   skills: [
-    { name: "React", level: 95 },
+    { name: "React", level: 72 },
     { name: "JavaScript", level: 90 },
-    { name: "Tailwind CSS", level: 90 },
+    { name: "Tailwind CSS", level: 50 },
     { name: "Node.js", level: 85 },
     { name: "Framer Motion", level: 70 },
-    { name: "SQL", level: 80 },
+    { name: "SQL", level: 92 },
   ],
   projects: [
     {
