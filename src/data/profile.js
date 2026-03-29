@@ -1,45 +1,52 @@
 export const profile = {
   name: "Nicolas Pistillo",
-  role: "Desarrollador Freelance",
+  role: "Desarrollador Full-Stack SSR",
   photo: "https://media.licdn.com/dms/image/v2/C4D03AQFKnz_Iqv39Nw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1646103474343?e=1776297600&v=beta&t=c58B9IKo0zMGWVVyjwqXSzy03duLfnKU8CWYuY_TTgc",
-  about: "Apasionado desarrollador con experiencia en la creación de aplicaciones web modernas y atractivas. Me especializo en el ecosistema de JavaScript, principalmente con React y Node.js. Como freelance, disfruto ayudando a mis clientes a dar vida a sus ideas con soluciones eficientes y escalables.",
   experience: [
     {
       company: "Welivery SAS",
-      role: "Desarrollador Frontend",
-      period: "2020 - Presente",
-      description: "Desarrollo y mantenimiento de la interfaz de usuario para diversas aplicaciones web utilizando React, Redux y Tailwind CSS."
-    },
-    {
-      company: "Empresa B",
-      role: "Desarrollador Full-Stack Jr.",
-      period: "2018 - 2020",
-      description: "Participé en el ciclo completo de desarrollo de software, desde el backend con Node.js y Express hasta el frontend con Vue.js."
+      role: "Desarrollador de Software",
+      period: "Abr 2021 - Jul 2022",
+      description: "Implementé integraciones API entre los servicios de la empresa y múltiples plataformas de e-commerce, lo que permitió aumentar el alcance de clientes en un 20%."
     },
     {
       company: "SBI Technology SRL",
-      role: "Software Developer",
-      period: "2018 - 2020",
-      description: "Participé en el ciclo completo de desarrollo de software, desde el backend con Node.js y Express hasta el frontend con Vue.js. y un poco mas de texto solo para saber como se puede llegar a ver esto"
+      role: "Desarrollador de Software",
+      period: "Jul 2022 - Actualidad",
+      description: "Lideré proyectos de e-commerce y marketplace para importantes clientes locales, participando activamente en la planificación, desarrollo e implementación de soluciones orientadas a soportar alta demanda de usuarios."
     },
-    {
-      company: "SBI Technology SRL",
-      role: "Software Developer",
-      period: "2018 - 2020",
-      description: "Participé en el ciclo completo de desarrollo de software, desde el backend con Node.js y Express hasta el frontend con Vue.js. y un poco mas de texto solo para saber como se puede llegar a ver esto"
-    }
   ],
   education: [
     {
-      institution: "Universidad Nacional",
-      degree: "Ingeniería de Software",
-      period: "2014 - 2019"
+      institution: "Coderhouse",
+      degree: "Diseño UX/UI",
+      period: "Feb 2020"
     },
     {
-      institution: "Platzi",
-      degree: "Curso de React Avanzado",
-      period: "2021"
-    }
+      institution: "ICARO",
+      degree: "Desarrollo web Front-End",
+      period: "Ago 2020"
+    },
+    {
+      institution: "Educacion IT",
+      degree: "Desarrollo Full Stack con PHP",
+      period: "Sept 2020"
+    },
+    {
+      institution: "Coderhouse",
+      degree: "Cloud Computing - AWS",
+      period: "Dic 2023"
+    },
+    {
+      institution: "Pluralsight",
+      degree: "Desarrollo Mobile con Flutter",
+      period: "Nov 2025"
+    },
+    {
+      institution: "Anthropic",
+      degree: "Claude Code in Action",
+      period: "Mar 2026"
+    },
   ],
   skills: [
     { name: "React", level: 72 },

@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
       <main>{children}</main>
       <footer className="py-6 text-center text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-800">
-        <p>&copy; {new Date().getFullYear()} Tu Nombre. Todos los derechos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} - Todos los derechos reservados.</p>
       </footer>
     </div>
   );

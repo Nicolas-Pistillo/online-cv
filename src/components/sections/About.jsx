@@ -13,7 +13,7 @@ const About = () => {
           transition={{ duration: 0.8 }}
           className="flex flex-col md:flex-row items-center gap-12"
         >
-          <div className="md:w-1/3 flex justify-center">
+          <div className="md:w-1/3 flex justify-center self-center md:self-start">
             <img
               src={profile.photo}
               alt={profile.name}
@@ -21,10 +21,13 @@ const About = () => {
             />
           </div>
           <div className="md:w-2/3 text-center md:text-left">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-white mb-4">Sobre Mí</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-white mb-4">
+              Sobre Mí
+            </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-2">{profile.role}</p>
             <p className="text-gray-700 dark:text-gray-400 leading-relaxed">
-              {profile.about}
+              Desarrollador Full Stack con más de 5 años de experiencia, especializado en el ecosistema PHP y Laravel, con amplia participación en proyectos de logística, e-commerce y sistemas de gestión. <br /> <br />
+              He trabajado en el desarrollo y mantenimiento de aplicaciones web, integraciones con servicios externos y optimización de procesos, aportando soluciones escalables y orientadas a negocio y producto. <br /> <br />
             </p>
           </div>
         </motion.div>
