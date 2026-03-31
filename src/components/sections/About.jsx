@@ -26,7 +26,7 @@ const About = () => {
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-2">{profile.role}</p>
             <p className="text-gray-700 dark:text-gray-400 leading-relaxed">
-              Desarrollador Full Stack con más de 5 años de experiencia, especializado en el ecosistema PHP y Laravel, con amplia participación en proyectos de logística, e-commerce y sistemas de gestión. <br /> <br />
+              Desarrollador de software con más de 5 años de experiencia, especializado en el ecosistema PHP y Laravel, con amplia participación en proyectos de logística, e-commerce y sistemas de gestión. <br /> <br />
               He trabajado en el desarrollo y mantenimiento de aplicaciones web, integraciones con servicios externos y optimización de procesos, aportando soluciones escalables y orientadas a negocio y producto. <br /> <br />
             </p>
           </div>

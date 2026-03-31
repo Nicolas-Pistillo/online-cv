@@ -49,32 +49,47 @@ export const profile = {
     },
   ],
   skills: [
-    { name: "React", level: 72 },
-    { name: "JavaScript", level: 90 },
-    { name: "Tailwind CSS", level: 50 },
-    { name: "Node.js", level: 85 },
-    { name: "Framer Motion", level: 70 },
-    { name: "SQL", level: 92 },
+    { name: "Maquetación web (HTML,CSS,Javascript)", level: 100 },
+    { name: "Tailwind CSS", level: 90 },
+    { name: "React - Next.js", level: 70 },
+    { name: "Angular", level: 70 },
+    { name: "Node.js - Typescript", level: 78 },
+    { name: "PHP - Laravel", level: 90 },
+    { name: "Bases de datos - Mysql, PostgreSQL, SQL Server, MongoDB...", level: 90 },
+    { name: "Automatización con IA - RAG, Agents...", level: 50 },
+    { name: "Livewire", level: 90 },
+    { name: "Docker", level: 82 },
+    { name: "Linux", level: 90 },
+    { name: "AWS", level: 60 },
+    { name: "C# - .NET", level: 55 },
+    { name: "Python", level: 55 },
+    { name: "Flutter", level: 40 },
   ],
   projects: [
     {
-      name: "Proyecto 1",
-      description: "Una breve descripción del proyecto. Qué tecnologías se usaron y cuál fue mi rol.",
-      image: "/src/assets/projects/project1.png",
-      github: "https://github.com",
-      demo: "https://github.com"
+      name: "Starlings",
+      description: "Plataforma SaaS para agencias de viajes que integra diferentes proveedores para optimizar la gestión de reservas y paquetes incluyendo vuelos, hoteles, autos y traslados.",
+      image: "/src/assets/projects/starlings.png",
+      coverImage: true,
+      demo: "https://starlings.travel"
     },
     {
-      name: "Proyecto 2",
-      description: "Una breve descripción del proyecto. Qué tecnologías se usaron y cuál fue mi rol.",
-      image: "/src/assets/projects/project2.png",
-      github: "https://github.com",
-      demo: "https://github.com"
-    }
+      name: "Subastas BMROS",
+      description: "Sistema de subastas online desarrollado para el banco municipal de Rosario. Permite a los usuarios participar en subastas de bienes embargados, ofreciendo una plataforma segura y fácil de usar para pujar por los lotes disponibles.",
+      image: "/src/assets/projects/subastas.png",
+      coverImage: false,
+      demo: "https://subastas.bmros.com.ar"
+    },
+    {
+      name: "Simplecom",
+      description: "Plataforma SaaS para generación de comercios electrónicos listos para operar con front-office y back-office personalizables",
+      image: "/src/assets/projects/simplecom.png",
+      coverImage: false,
+    },
   ],
   contact: {
-    email: "tu.email@example.com",
-    linkedin: "https://linkedin.com/in/tu-usuario",
-    github: "https://github.com/tu-usuario"
+    email: "pistillonicolas@gmail.com",
+    linkedin: "https://linkedin.com/in/nicolas-pistillo",
+    github: "https://github.com/Nicolas-Pistillo"
   }
 };

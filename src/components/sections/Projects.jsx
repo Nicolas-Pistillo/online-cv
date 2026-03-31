@@ -33,18 +33,25 @@ const Projects = () => {
               viewport={{ once: true }}
               variants={cardVariants}
             >
-              <Card className="h-full flex flex-col">
-                <img src={project.image} alt={project.name} className="rounded-t-lg w-full h-48 object-cover" />
-                <div className="p-6 flex-grow flex flex-col">
+              <Card className="h-full flex flex-col" containerClassName='p-0'>
+                <img src={project.image} alt={project.name} className={`rounded-t-lg 
+                w-full h-48 ${project.coverImage ? 'object-cover' : 'object-contain'}`} />
+                <div className="flex-grow flex flex-col p-6">
                   <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2">{project.name}</h3>
                   <p className="text-gray-600 dark:text-gray-300 flex-grow">{project.description}</p>
                   <div className="mt-4 flex space-x-4">
-                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
-                      <Github size={24} />
-                    </a>
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
-                      <ExternalLink size={24} />
-                    </a>
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+                        <Github size={24} />
+                      </a>
+                    )}
+                    {project.demo && (
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer" 
+                      className="text-gray-500 hover:text-blue-500 dark:hover:text-blue-400 
+                      transition-colors flex items-center gap-1.5">
+                        <ExternalLink size={24} /> Visitar
+                      </a>
+                    )}
                   </div>
                 </div>
               </Card>
