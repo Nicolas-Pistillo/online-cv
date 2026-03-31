@@ -61,8 +61,8 @@ export const profile = {
     { name: "Docker", level: 82 },
     { name: "Linux", level: 90 },
     { name: "AWS", level: 60 },
-    { name: "C# - .NET", level: 55 },
-    { name: "Python", level: 55 },
+    { name: "C# - .NET", level: 50 },
+    { name: "Python", level: 50 },
     { name: "Flutter", level: 40 },
   ],
   projects: [
@@ -82,7 +82,7 @@ export const profile = {
     },
     {
       name: "Simplecom",
-      description: "Plataforma SaaS para generación de comercios electrónicos listos para operar con front-office y back-office personalizables",
+      description: "Plataforma SaaS para generación de comercios electrónicos listos para operar con diferentes pasarelas de pago, integraciones con proveedores logísticos y herramientas de gestión comercial para pequeñas y medianas empresas.",
       image: "/src/assets/projects/simplecom.png",
       coverImage: false,
     },
