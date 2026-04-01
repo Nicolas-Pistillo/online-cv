@@ -69,21 +69,21 @@ export const profile = {
     {
       name: "Starlings",
       description: "Plataforma SaaS para agencias de viajes que integra diferentes proveedores para optimizar la gestión de reservas y paquetes incluyendo vuelos, hoteles, autos y traslados.",
-      image: "/src/assets/projects/starlings.png",
+      image: "/public/img/starlings.png",
       coverImage: true,
       demo: "https://starlings.travel"
     },
     {
       name: "Subastas BMROS",
       description: "Sistema de subastas online desarrollado para el banco municipal de Rosario. Permite a los usuarios participar en subastas de bienes embargados, ofreciendo una plataforma segura y fácil de usar para pujar por los lotes disponibles.",
-      image: "/src/assets/projects/subastas.png",
+      image: "/public/img/subastas.png",
       coverImage: false,
       demo: "https://subastas.bmros.com.ar"
     },
     {
       name: "Simplecom",
       description: "Plataforma SaaS para generación de comercios electrónicos listos para operar con diferentes pasarelas de pago, integraciones con proveedores logísticos y herramientas de gestión comercial para pequeñas y medianas empresas.",
-      image: "/src/assets/projects/simplecom.png",
+      image: "/public/img/simplecom.png",
       coverImage: false,
     },
   ],
