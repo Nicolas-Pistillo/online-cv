@@ -5,13 +5,13 @@ export const profile = {
   experience: [
     {
       company: "Welivery SAS",
-      role: "Desarrollador de Software",
+      role: "Desarrollador Full-Stack JR",
       period: "Abr 2021 - Jul 2022",
       description: "Implementé integraciones API entre los servicios de la empresa y múltiples plataformas de e-commerce, lo que permitió aumentar el alcance de clientes en un 20%."
     },
     {
       company: "SBI Technology SRL",
-      role: "Desarrollador de Software",
+      role: "Desarrollador Full-Stack SSR",
       period: "Jul 2022 - Actualidad",
       description: "Lideré proyectos de e-commerce y marketplace para importantes clientes locales, participando activamente en la planificación, desarrollo e implementación de soluciones orientadas a soportar alta demanda de usuarios."
     },
