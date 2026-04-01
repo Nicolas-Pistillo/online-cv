@@ -33,7 +33,7 @@ const Projects = () => {
               viewport={{ once: true }}
               variants={cardVariants}
             >
-              <Card className="h-full flex flex-col" containerClassName='p-0'>
+              <Card className="h-full flex flex-col p-0" containerClassName='!p-0'>
                 <img src={project.image} alt={project.name} className={`rounded-t-lg 
                 w-full h-48 ${project.coverImage ? 'object-cover' : 'object-contain'}`} />
                 <div className="flex-grow flex flex-col p-6">
