@@ -23,7 +23,7 @@ const Experience = () => {
           Experiencia Laboral
         </h2>
         <div className="relative">
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-blue-500"></div>
+          <div className="hidden md:block md:absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-blue-500"></div>
           {profile.experience.map((job, index) => (
             <motion.div
               key={index}
@@ -36,11 +36,11 @@ const Experience = () => {
                 index % 2 === 0 ? 'flex-row-reverse' : ''
               }`}
             >
-              <div className="w-5/12"></div>
-              <div className="z-10 flex items-center justify-center w-12 h-12 bg-blue-500 rounded-full shadow-lg">
-                <Briefcase className="text-white" />
+              <div className="hidden md:block w-5/12"></div>
+              <div className="z-10 hidden md:flex items-center justify-center w-12 h-12 bg-blue-500 rounded-full shadow-lg">
+                <Briefcase className="block text-white" />
               </div>
-              <div className={`w-5/12 ${index % 2 === 0 ? 'text-right' : 'text-left'}`}>
+              <div className={`md:w-5/12 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
                 <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
                   <h3 className="text-xl font-bold text-gray-800 dark:text-white">{job.role}</h3>
                   <p className="text-blue-500 dark:text-blue-400 font-semibold mb-2">{job.company}</p>
